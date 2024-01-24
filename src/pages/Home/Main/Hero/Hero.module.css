@@ -1,0 +1,48 @@
+.container {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.container h1 {
+    color: #111;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 2.19rem;
+}
+
+.linha {
+    background-color: #5E5E5E;
+    width: 16.438rem;
+    height: 0.0625rem;
+    margin-bottom: 2.19rem;
+}
+
+.container p {
+    color: #111;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 2.19rem;
+}
+
+.botao__projects {
+    text-decoration: none;
+    color: #111111;
+    padding: 0.625rem 2.1875rem;
+    background-color: #FFFFFF;
+    border-radius: 0.625rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 1px solid #111;
+    margin-right: 3.81rem;
+}
+
+.botao__contact {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.625rem 2.1875rem;
+    background-color: #111111;
+    border-radius: 0.625rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 1px solid #111;
+}

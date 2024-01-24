@@ -1,0 +1,9 @@
+:root {
+    --fonte: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: var(--fonte);
+}

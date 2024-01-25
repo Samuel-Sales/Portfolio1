@@ -6,10 +6,10 @@ export default function Header() {
         <header className={style.container}>
             <h1>Portfolio</h1>
             <nav className={style.navegacao}>
-                <Link className={style.links} to='/'>Home</Link>
-                <Link className={style.links} to='about'>About</Link>
-                <Link className={style.links} to='projects'>Projects</Link>
-                <Link className={style.botao} to='contact'>Contact</Link>
+                <Link className={style.links} to='/'>Início</Link>
+                <Link className={style.links} to='about'>Sobre</Link>
+                <Link className={style.links} to='projects'>Projetos</Link>
+                <Link className={style.botao} to='contact'>Contato</Link>
             </nav>
         </header>
     );

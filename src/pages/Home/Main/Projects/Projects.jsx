@@ -7,7 +7,7 @@ export default function Projects() {
             <hr className={style.linha__principal} />
             <div className={style.container__cards}>
                 <div className={style.card}>
-                    <img className={style.card__imagem__projeto} src="/descartavel.png" alt="Imagem do projeto" />
+                    <img className={style.card__imagem__projeto} src="/Goku.jpg" alt="Imagem do projeto" />
                     <p className={style.projeto__titulo}>Project Title</p>
                     <p className={style.descricao__projeto}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -26,7 +26,7 @@ export default function Projects() {
                 </div>
 
                 <div className={style.card}>
-                    <img className={style.card__imagem__projeto} src="/descartavel.png" alt="Imagem do projeto" />
+                    <img className={style.card__imagem__projeto} src="/Goku.jpg" alt="Imagem do projeto" />
                     <p className={style.projeto__titulo}>Project Title</p>
                     <p className={style.descricao__projeto}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -45,7 +45,7 @@ export default function Projects() {
                 </div>
 
                 <div className={style.card}>
-                    <img className={style.card__imagem__projeto} src="/descartavel.png" alt="Imagem do projeto" />
+                    <img className={style.card__imagem__projeto} src="/Goku.jpg" alt="Imagem do projeto" />
                     <p className={style.projeto__titulo}>Project Title</p>
                     <p className={style.descricao__projeto}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
@@ -64,7 +64,7 @@ export default function Projects() {
                 </div>
 
                 <div className={style.card}>
-                    <img className={style.card__imagem__projeto} src="/descartavel.png" alt="Imagem do projeto" />
+                    <img className={style.card__imagem__projeto} src="/Goku.jpg" alt="Imagem do projeto" />
                     <p className={style.projeto__titulo}>Project Title</p>
                     <p className={style.descricao__projeto}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />

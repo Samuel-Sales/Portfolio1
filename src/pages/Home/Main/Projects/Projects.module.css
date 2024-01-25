@@ -1,0 +1,55 @@
+.container {
+    margin-top: 10rem;
+}
+
+.container h2 {
+    color: #111;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.19rem;
+}
+
+.linha__principal {
+    width: 16.438rem;
+    height: 0.0625rem;
+    background-color: #5E5E5E;
+    margin-bottom: 2.19rem;
+}
+
+.container__cards {
+    display: flex;
+    gap: 7.06rem;
+    flex-wrap: wrap;
+}
+
+.card__imagem__projeto {
+    height: 23.375rem;
+    align-self: stretch;
+    margin-bottom: 0.62rem;
+}
+
+.projeto__titulo {
+    color: #111;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2.2rem;
+}
+
+.descricao__projeto {
+    color: #111;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
+
+.tecnologias {
+    display: flex;
+    gap: 2.25rem;
+    margin-bottom: 0.62rem;
+}
+
+.links__projetos {
+    margin-right: 1.25rem;
+}
+

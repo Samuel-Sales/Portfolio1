@@ -45,4 +45,45 @@
     font-weight: 400;
     font-size: 1.5rem;
     border: 1px solid #111;
+    margin-right: 3.81rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 744px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container h1 {
+        font-size: 2.25rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .container p {
+        text-align: center;
+        font-size: 1.3125rem;
+        margin-left: 3.75rem;
+        margin-right: 3.75rem;
+    }
+
+    .botoes__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.56rem;
+        align-items: center;
+    }
+
+    .botao__projects {
+        margin-left: 5.41rem;
+        margin-left: 5.41rem;
+    }
+
+    .botao__contact {
+        margin-left: 5.41rem;
+        margin-left: 5.41rem;
+        margin-top: 1.56rem;
+    }
 }

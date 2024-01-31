@@ -9,10 +9,12 @@ export default function Hero() {
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna <br />
                 lobortis,eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec <br />
-                purus nec mauris posuere malesuada 
+                purus nec mauris posuere malesuada
             </p>
-            <Link className={style.botao__projects} to='contact'>Projetos</Link>
-            <Link className={style.botao__contact} to='contact'>Contato</Link>
+            {/* <div className={style.botoes__container}> */}
+                <Link className={style.botao__projects} to='contact'>Projetos</Link>
+                <Link className={style.botao__contact} to='contact'>Contato</Link>
+            {/* </div> */}
         </section>
     );
 };

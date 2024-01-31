@@ -29,3 +29,21 @@
     justify-content: center;
     gap: 1.62rem;
 }
+
+@media screen and (min-width: 375px) and (max-width: 743px) {
+    .container {
+
+    }
+
+    .texto {
+        font-size: 1.3125rem;
+        font-weight: 400;
+        margin-right: 3.75rem;
+        margin-left: 3.75rem;
+    }
+
+    .tecnologias__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

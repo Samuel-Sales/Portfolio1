@@ -7,13 +7,12 @@ export default function Hero() {
             <h1>Samuel Sales</h1>
             <hr className={style.linha} />
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna <br />
-                lobortis,eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec <br />
-                purus nec mauris posuere malesuada
+                Olá! Sou Samuel Sales, desenvolvedor Full Stack especializado em desenvolvimento web. <br />
+                Ajudo pequenos negócios e designers a transformar grandes ideias em realidade. Vamos conversar?
             </p>
             {/* <div className={style.botoes__container}> */}
-                <Link className={style.botao__projects} to='contact'>Projetos</Link>
-                <Link className={style.botao__contact} to='contact'>Contato</Link>
+            <Link className={style.botao__projects} to='contact'>Projetos</Link>
+            <Link className={style.botao__contact} to='contact'>Contato</Link>
             {/* </div> */}
         </section>
     );

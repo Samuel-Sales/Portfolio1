@@ -1,12 +1,14 @@
 .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.25rem;
+    /* margin-top: 2.25rem; */
     align-items: center;
+    background-color: #34495E;
+    padding: 3em;
 }
 
 .container h1 {
-    color: #111111;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 2rem;
 }
@@ -19,7 +21,7 @@
 
 .links {
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -28,24 +30,23 @@
     text-decoration: none;
     color: #FFFFFF;
     padding: 0.625rem 2.1875rem;
-    background-color: #111111;
+    background-color: #3498DB;
     border-radius: 0.625rem;
     font-weight: 400;
     font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    .container {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+    /* .container {
+        
+    } */
 }
 
 @media screen and (min-width: 744px) and (max-width: 1023px) {
-    .container {
+    /* .container {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-    }
+    } */
 
     .navegacao {
         display: none;
@@ -53,7 +54,7 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 743px) {
-    .container {
+    /* .container {
         margin-left: 1.5rem;
-    }
+    } */
 }
